@@ -107,7 +107,7 @@ const combine = (arr1, arr2) => {
     }
   }
   // sort merged objArray
-  newArr
+  newArr = newArr
     .map((elem) =>
       Object.keys(elem)
         .sort()
